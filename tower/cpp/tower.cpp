@@ -59,5 +59,7 @@ int main()
     for(int height: h3) heights.push_back(height);
     for(int tower: solution(heights)) cout << tower << " ";
     cout << endl;
-    heights.clear();
+    vector<int>().swap(heights);
+
+    return 0;
 }

@@ -76,7 +76,7 @@ int main()
 
     for(int weight: tWeights4) tWeights.push_back(weight);
     cout << solution(bLength4, bWeight4, tWeights) << endl;
-    tWeights.clear();
+    vector<int>().swap(tWeights);
 
     return 0;
 }

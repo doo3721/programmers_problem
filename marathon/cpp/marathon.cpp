@@ -52,6 +52,8 @@ int main()
     for(string player: p3) participant.push_back(player);
     for(string player: c3) completion.push_back(player);
     cout << solution(participant, completion) << endl;
-    participant.clear(); completion.clear();
+    vector<string>().swap(participant);
+    vector<string>().swap(completion);
 
+    return 0;
 }

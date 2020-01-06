@@ -34,7 +34,7 @@ int main() {
 
     for(int num: array) scoville.push_back(num);
     cout << solution(scoville, k) << endl;
-    scoville.clear();
+    vector<int>().swap(scoville);
 
     return 0;
 }
