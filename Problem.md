@@ -6,3 +6,5 @@
 * K번째수(kth_num)
 * 모의고사(mock_test)
 * 체육복(gym_suit)
+* 타일 장식품(tile_decoration)
+* 타겟 넘버(target_number)
