@@ -9,3 +9,5 @@
 * 타일 장식품 (tile_decoration)
 * 타겟 넘버 (target_number)
 * 전화번호 목록 (phone_book)
+* 예산 (budgets)
+* 주식 가격 (stock_price)
