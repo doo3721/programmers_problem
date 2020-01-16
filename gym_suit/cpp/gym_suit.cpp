@@ -31,7 +31,8 @@ int solution(int n, vector<int> lost, vector<int> reserve) {
         
         if((*lostR-1) == *fR) {
             reserve.erase(fR);
-            lost.erase(lostR);     
+            lost.erase(lostR);
+
             continue;
         }
         else if((*lostR+1) == *bR) {
